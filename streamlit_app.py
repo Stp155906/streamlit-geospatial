@@ -9,7 +9,7 @@ st.sidebar.title("About")
 st.sidebar.title("SideBar")
 
    
-)
+
 
 # Customize page title
 st.title("Streamlit for Geospatial Applications")
