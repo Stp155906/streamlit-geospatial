@@ -4,19 +4,11 @@ import leafmap.foliumap as leafmap
 st.set_page_config(layout="wide")
 
 st.sidebar.title("About")
-st.sidebar.info(
-    """
-    Web App URL: <https://geospatial.streamlitapp.com>
-    GitHub repository: <https://github.com/giswqs/streamlit-geospatial>
-    """
-)
 
-st.sidebar.title("Contact")
-st.sidebar.info(
-    """
-    Qiusheng Wu: <https://wetlands.io>
-    [GitHub](https://github.com/giswqs) | [Twitter](https://twitter.com/giswqs) | [YouTube](https://www.youtube.com/c/QiushengWu) | [LinkedIn](https://www.linkedin.com/in/qiushengwu)
-    """
+
+st.sidebar.title("SideBar")
+
+   
 )
 
 # Customize page title
@@ -31,7 +23,7 @@ st.markdown(
 st.header("Instructions")
 
 markdown = """
-1. For the [GitHub repository](https://github.com/giswqs/streamlit-multipage-template) or [use it as a template](https://github.com/giswqs/streamlit-multipage-template/generate) for your own project.
+1. Import API from kepler.gl or mapbox
 2. Customize the sidebar by changing the sidebar text and logo in each Python files.
 3. Find your favorite emoji from https://emojipedia.org.
 4. Add a new app to the `pages/` directory with an emoji in the file name, e.g., `1_🚀_Chart.py`.
